@@ -1,0 +1,32 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+
+# Database
+*.sql.backup
+*.sqlite
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Vendor (if using Composer in future)
+/vendor/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+*.cache
+cache/
