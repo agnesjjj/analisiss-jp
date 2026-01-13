@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Sistem Informasi Minat Jepang</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="container" style="max-width: 1200px; padding: 40px 20px;">
+        <div class="card">
+            <div class="card-header">
+                <h1>🗾 Demo Sistem Informasi Minat Generasi Muda Terhadap Jepang</h1>
+            </div>
+            
+            <div class="alert alert-info">
+                <strong>Selamat Datang!</strong> Ini adalah halaman demo untuk menampilkan fitur-fitur sistem.
+            </div>
+            
+            <h2 style="color: var(--primary-blue); margin: 30px 0 20px;">📋 Daftar Fitur</h2>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <h3>👤 Siswa</h3>
+                    <ul style="margin: 15px 0; padding-left: 20px; text-align: left;">
+                        <li>Registrasi akun</li>
+                        <li>Login sistem</li>
+                        <li>Isi biodata</li>
+                        <li>Kuesioner Likert</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                    <a href="/login" class="btn btn-primary">Coba Sekarang</a>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>🎛️ Admin</h3>
+                    <ul style="margin: 15px 0; padding-left: 20px; text-align: left;">
+                        <li>Dashboard statistik</li>
+                        <li>Kelola pertanyaan</li>
+                        <li>Lihat laporan</li>
+                        <li>Grafik Chart.js</li>
+                        <li>Ekspor CSV</li>
+                    </ul>
+                    <a href="/login" class="btn btn-primary">Login Admin</a>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>👔 Stakeholder</h3>
+                    <ul style="margin: 15px 0; padding-left: 20px; text-align: left;">
+                        <li>Dashboard analisis</li>
+                        <li>Grafik interaktif</li>
+                        <li>Temuan utama</li>
+                        <li>Rekomendasi</li>
+                        <li>Radar chart</li>
+                    </ul>
+                    <a href="/login" class="btn btn-primary">Lihat Hasil</a>
+                </div>
+            </div>
+            
+            <h2 style="color: var(--primary-blue); margin: 40px 0 20px;">🎨 Tema & Design</h2>
+            
+            <div class="card" style="background: linear-gradient(135deg, var(--lightest-blue) 0%, var(--white) 100%);">
+                <h3>Palet Warna</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <div style="background: var(--primary-blue); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong>Primary Blue</strong><br>#1e3a8a
+                    </div>
+                    <div style="background: var(--secondary-blue); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong>Secondary Blue</strong><br>#3b82f6
+                    </div>
+                    <div style="background: var(--light-blue); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong>Light Blue</strong><br>#60a5fa
+                    </div>
+                    <div style="background: var(--lightest-blue); color: var(--primary-blue); padding: 20px; border-radius: 8px; text-align: center; border: 2px solid var(--secondary-blue);">
+                        <strong>Lightest Blue</strong><br>#dbeafe
+                    </div>
+                </div>
+            </div>
+            
+            <h2 style="color: var(--primary-blue); margin: 40px 0 20px;">📊 Contoh Skala Likert</h2>
+            
+            <div class="question-card">
+                <div class="question-number">Contoh Pertanyaan</div>
+                <div class="question-text">Saya tertarik mempelajari budaya Jepang</div>
+                
+                <div class="likert-scale">
+                    <div class="likert-item">
+                        <input type="radio" id="demo1" name="demo" value="1">
+                        <label for="demo1">
+                            <div style="font-size: 1.5rem; margin-bottom: 5px;">1</div>
+                            <div style="font-size: 0.8rem;">Sangat Tidak Setuju</div>
+                        </label>
+                    </div>
+                    <div class="likert-item">
+                        <input type="radio" id="demo2" name="demo" value="2">
+                        <label for="demo2">
+                            <div style="font-size: 1.5rem; margin-bottom: 5px;">2</div>
+                            <div style="font-size: 0.8rem;">Tidak Setuju</div>
+                        </label>
+                    </div>
+                    <div class="likert-item">
+                        <input type="radio" id="demo3" name="demo" value="3" checked>
+                        <label for="demo3">
+                            <div style="font-size: 1.5rem; margin-bottom: 5px;">3</div>
+                            <div style="font-size: 0.8rem;">Netral</div>
+                        </label>
+                    </div>
+                    <div class="likert-item">
+                        <input type="radio" id="demo4" name="demo" value="4">
+                        <label for="demo4">
+                            <div style="font-size: 1.5rem; margin-bottom: 5px;">4</div>
+                            <div style="font-size: 0.8rem;">Setuju</div>
+                        </label>
+                    </div>
+                    <div class="likert-item">
+                        <input type="radio" id="demo5" name="demo" value="5">
+                        <label for="demo5">
+                            <div style="font-size: 1.5rem; margin-bottom: 5px;">5</div>
+                            <div style="font-size: 0.8rem;">Sangat Setuju</div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 style="color: var(--primary-blue); margin: 40px 0 20px;">📈 Contoh Grafik (Chart.js)</h2>
+            
+            <div class="chart-container">
+                <canvas id="demoChart"></canvas>
+            </div>
+            
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="/" class="btn btn-primary" style="padding: 15px 40px; font-size: 1.1rem;">
+                    🚀 Mulai Gunakan Sistem
+                </a>
+            </div>
+            
+            <div class="alert alert-info" style="margin-top: 30px;">
+                <strong>Informasi Login Demo:</strong><br>
+                <strong>Admin:</strong> username: <code>admin</code> | password: <code>admin123</code><br>
+                <strong>Siswa:</strong> Silakan daftar akun baru di halaman registrasi
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 SMK Yos Sudarso Kawunganten - Sistem Informasi Minat Generasi Muda Terhadap Jepang</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('demoChart').getContext('2d');
+        const demoChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Budaya Jepang', 'Pendidikan di Jepang', 'Bekerja di Jepang', 'Bahasa Jepang'],
+                datasets: [{
+                    label: 'Rata-rata Minat (Demo Data)',
+                    data: [4.2, 3.8, 3.5, 4.1],
+                    backgroundColor: [
+                        'rgba(59, 130, 246, 0.8)',
+                        'rgba(96, 165, 250, 0.8)',
+                        'rgba(147, 197, 253, 0.8)',
+                        'rgba(30, 58, 138, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgba(59, 130, 246, 1)',
+                        'rgba(96, 165, 250, 1)',
+                        'rgba(147, 197, 253, 1)',
+                        'rgba(30, 58, 138, 1)'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 5,
+                        ticks: {
+                            stepSize: 1
+                        },
+                        title: {
+                            display: true,
+                            text: 'Skala Likert (1-5)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Kategori Minat'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: 'Contoh Grafik Analisis Minat Siswa Terhadap Jepang',
+                        font: {
+                            size: 16
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
